@@ -37,6 +37,7 @@ import ReactstrapListGroup from "./R047_ReactstrapListGroup";
 function App() {
   return (
     // return 문은 div로 한번만 감싸야 한다.
+    // ⭐ 여기에서 주석을 풀고 컴포넌트 형태로 모두 실습하면 됨. ⭐
     <div>
       <h1>Start React 200!</h1>
       <p>CSS 적용하기</p>
