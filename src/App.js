@@ -34,6 +34,11 @@ import ReactstrapForm from "./R044_ReactstrapForm";
 import ReactstrapInputGroup from "./R045_ReactstrapInputGroup";
 import ReactstrapJumbotron from "./R046_ReactstrapJumbotron";
 import ReactstrapListGroup from "./R047_ReactstrapListGroup";
+import ReactstrapModal from "./R048_ReactstrapModal";
+import Navbar from "./R049_ReactstrapNavbar";
+import Pagination from "./R050_ReactstrapPagination";
+import Popover from "./R051_ReactstrapPopover";
+import Progress from "./R052_ReactstrapProgress";
 function App() {
   return (
     // return 문은 div로 한번만 감싸야 한다.
@@ -119,7 +124,17 @@ function App() {
 
       {/* <ReactstrapJumbotron /> */}
 
-      <ReactstrapListGroup />
+      {/* <ReactstrapListGroup /> */}
+
+      {/* <ReactstrapModal /> */}
+
+      {/* <Navbar /> */}
+
+      {/* <Pagination /> */}
+
+      {/* <Popover /> */}
+
+      <Progress />
     </div>
   );
 }
