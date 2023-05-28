@@ -39,13 +39,21 @@ import Navbar from "./R049_ReactstrapNavbar";
 import Pagination from "./R050_ReactstrapPagination";
 import Popover from "./R051_ReactstrapPopover";
 import Progress from "./R052_ReactstrapProgress";
+import FetchPost from "./R060_FetchPost";
+import AxiosGet from "./R061_AxiosGet";
+import CallbackFunc from "./R063_CallbackFunc";
+import Promise1 from "./R064_Promise";
+import Promise2 from "./R065_Promise";
+import ReactonClick from "./R066_onClick";
+import ReactonChange from "./R067_onChange";
+import ReactMouseMove from "./R068_onMouseMove";
+
 function App() {
   return (
     // return 문은 div로 한번만 감싸야 한다.
     // ⭐ 여기에서 주석을 풀고 컴포넌트 형태로 모두 실습하면 됨. ⭐
     <div>
       <h1>Start React 200!</h1>
-      <p>CSS 적용하기</p>
       {/* App.js 에서 import한 컴포넌트인 LifeCycle 로 prop_value를 전달함. */}
       {/* <LifeCycle prop_value="FromApp.js" /> */}
 
@@ -134,7 +142,23 @@ function App() {
 
       {/* <Popover /> */}
 
-      <Progress />
+      {/* <Progress /> */}
+
+      {/* <FetchPost /> */}
+
+      {/* <AxiosGet /> */}
+
+      {/* <CallbackFunc /> */}
+
+      {/* <Promise1 /> */}
+
+      {/* <Promise2 /> */}
+
+      {/* <ReactonClick /> */}
+
+      {/* <ReactonChange /> */}
+
+      <ReactMouseMove />
     </div>
   );
 }
