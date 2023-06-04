@@ -47,6 +47,7 @@ import Promise2 from "./R065_Promise";
 import ReactonClick from "./R066_onClick";
 import ReactonChange from "./R067_onChange";
 import ReactMouseMove from "./R068_onMouseMove";
+import ReactMouseover from "./R069_ReactMouseover";
 
 function App() {
   return (
@@ -158,7 +159,9 @@ function App() {
 
       {/* <ReactonChange /> */}
 
-      <ReactMouseMove />
+      {/* <ReactMouseMove /> */}
+
+      <ReactMouseover />
     </div>
   );
 }
