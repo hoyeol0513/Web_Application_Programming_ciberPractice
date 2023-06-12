@@ -50,6 +50,7 @@ import ReactMouseMove from "./R068_onMouseMove";
 import ReactMouseover from "./R069_ReactMouseover";
 
 function App() {
+  const addString = () => this.props.getStore.dispatch({ type: "ADD" });
   return (
     // return 문은 div로 한번만 감싸야 한다.
     // ⭐ 여기에서 주석을 풀고 컴포넌트 형태로 모두 실습하면 됨. ⭐
@@ -161,7 +162,11 @@ function App() {
 
       {/* <ReactMouseMove /> */}
 
-      <ReactMouseover />
+      {/* <ReactMouseover /> */}
+
+      <span>{this.props.getStore().str}</span>
+      <br />
+      <input value="Add200" type="button" onClick={addString} />
     </div>
   );
 }
